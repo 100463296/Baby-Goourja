@@ -1,0 +1,59 @@
+<html id="moomoo">
+
+<head>
+
+<title>Blackpool Pleasure Beach</title>
+<link rel="stylesheet" href="Style.css">
+</head>
+
+<body id="whiteBlue">
+<h1>
+Blackpool Pleasure Beach
+</h1>
+<p>
+Down on the coast in sunny Blackpool, stands the pleasure beach. With its towering rides its sure to make any thrill seeker excited!</p>
+
+<p>This park isn't only popular for its list of thrill rides but the history of the park that opened in 1896, it has lots of vintage rides that are still open to ride today.
+</p>
+<p>
+In 2018, the park opened its latest and greatest coaster: Icon</p>
+
+<p>This coaster launches rides twice at speeds up to 50 mph, making this the only multi launch coaster in the UK.</p> 
+<p>This ride twists and turns past all the other coasters around the park</p>
+<p>Leaving riders wanting to go round again and again!</p>
+<center>
+<img id="photos" src="ICON.jpg" alt="ICON ADVERT" onclick="onImageClick();" height="562px" width="800px">
+</center>
+
+
+
+
+
+
+
+
+
+<script>
+var i=0;
+function onImageClick(){
+	
+
+	switch(i){
+	case 0:
+		document.getElementById("photos").src="ICON 2.jpg";
+		i++;
+		break;
+	case 1:
+		document.getElementById("photos").src="ICON.jpg";
+		i++;
+		break;
+	case 2:
+		document.getElementById("photos").src="ICON 3.jpg";
+		i=0;
+	}
+}
+</script>
+<a id="link" href="index.html">Back to Home Page</a>
+</body>
+
+</html>

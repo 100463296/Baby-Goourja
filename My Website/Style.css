@@ -1,0 +1,43 @@
+#redBlue {
+  background-color: red;
+  color: blue;
+  text-align: center;
+}
+
+#whiteBlue {
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+#orangeBlue {
+  background-color: lightblue;
+  color: orange;
+  text-align: center;
+}
+  
+  #greenRed {
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+
+
+#woah {
+  background-color: grey;
+}
+
+#yeehaw {
+  background-color: gold;
+}
+
+#moomoo {
+  background-color: black;
+}
+
+#crybabs {
+  background-color: red;
+}
+#link {
+  color: white;
+}

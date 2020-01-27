@@ -1,0 +1,54 @@
+<html id="yeehaw">
+
+<head>
+
+<title>Alton Towers Resort</title>
+<link rel="stylesheet" href="Style.css">
+</head>
+
+<body id="redBlue">
+<h1>
+Alton Towers Resort
+</h1>
+<p>In the middle of the British countryside lies a hidden gem: Alton Towers. Branded as the Uk's favouirite theme park, Alton Towers has a wide variety of family rides and thrills. They hold multiple world records such as: The Smiler with the most inversions on any roller coaster in the world and TH13TEEN which is the worlds first free fall drop roller coaster.
+</p>
+<p>
+In 2018, the park opened its most recent roller coaster: Wicker Man
+
+<p>Holding the world record for the first roller coaster in the world to fuse fire and wood, Wicker Man is a great family thrill ride for all ages</p>
+<p>Riders can climb on-board the train, racing around a labyrinth of twisted track. The burning embers light the path as the train hurtles towards the six-storey high flaming effigy. Speeding towards the Wicker Man, he spectacularly ignites into flames as the train bursts through his chest three times.</p>
+<p>The world’s most immersive roller coaster experience to date, unifying cutting edge special effects with classic wooden coaster technology for the first time! </p>
+<center>
+<img id="photos3" src="Wicker Man.jpg" alt="Wicker Man Advert" onclick="onImageClick();" height="562px" width="800px">
+</center>
+
+<script>
+var i=0;
+function onImageClick(){
+	
+
+	switch(i){
+	case 0:
+		document.getElementById("photos3").src="Wicker Man 2.jpg";
+		i++;
+		break;
+	case 1:
+		document.getElementById("photos3").src="Wicker Man.jpg";
+		i++;
+		break;
+	case 2:
+		document.getElementById("photos3").src="Wicker Man 3.jpg";
+		i++;
+		break;
+	case 3:
+		document.getElementById("photos3").src="Wicker Man 4.jpg";
+		i=0;
+	}
+}
+</script>
+
+<a id="link" href="index.html">Back to Home Page</a>
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<html id="woah">
+
+<head>
+
+<title>Thorpe Park Resort</title>
+<link rel="stylesheet" href="Style.css">
+</head>
+
+<body id="orangeBlue">
+<h1>
+Thorpe Park Resort
+</h1>
+<p>Just outside of London lies an Island Like No Other. Known as the thrill capital of the UK, Thorpe Park has the most thrill rides compared to ant other park in Britain!</p>
+
+<p>The park has 5 major roller coasters: Stealth, Saw, The Swarm, Nemesis Inferno and Colossus. The resort also offers a large amount of thrill rides including a 40 metre drop tower, a swinging pendulum and a massive log flume just to name a few.
+</p>
+<p>
+In 2018, the park opened its newest and possibly most frightening ride: The Walking Dead</p>
+
+<p>Based on the hit TV show the walking dead, this experience leads survivors through dark tunnels and spooky corridors with something lurking around every corner</p> 
+<p>This 15 minute experience also includes a high speed roller coaster in the dark flying past zombies in the hopes to escape...ALIVE!</p>
+<p>The ride is complete with smoke, smells, loud noises, flashing lights and of course: Zombies </p>
+<center>
+<img id="photos2" src="Walking Dead.jpg" alt="Walking Dead Poster" onclick="onImageClick();" height="562px" width="800px">
+</center>
+
+<script>
+var i=0;
+function onImageClick(){
+	
+
+	switch(i){
+	case 0:
+		document.getElementById("photos2").src="Walking Dead 2.jpg";
+		i++;
+		break;
+	case 1:
+		document.getElementById("photos2").src="Walking Dead.jpg";
+		i++;
+		break;
+	case 2:
+		document.getElementById("photos2").src="Walking Dead 3.jpg";
+		i++;
+		break;
+	case 3:
+		document.getElementById("photos2").src="Walking Dead 4.jpg";
+		i=0;
+	}
+}
+</script>
+
+<a id="link" href="index.html">Back to Home Page</a>
+
+</body>
+
+</html>
